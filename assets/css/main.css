@@ -2348,6 +2348,10 @@ input, select, textarea {
 			}
 
 /* Image */
+img {
+	height: auto;
+	width: 100%;
+  }
 
 	.image {
 		border-radius: 4px;
@@ -3450,6 +3454,17 @@ input, select, textarea {
 
 	@media screen and (max-width: 480px) {
 
+		/* List */
+
+		ul.major-icons{
+			padding-left: 1em;
+		}
+
+		ul.major-icons li {
+			padding: .8em .8em .8em;
+		}
+
+
 		/* Button */
 
 			input[type="submit"],
@@ -3500,7 +3515,7 @@ input, select, textarea {
 
 /* XXSmall */
 
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 383px) {
 
 		/* Basic */
 
@@ -3526,4 +3541,5 @@ input, select, textarea {
 				padding: 2em 1em 2em 1em ;
 			}
 
+			
 	}
