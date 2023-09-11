@@ -3541,5 +3541,19 @@ img {
 				padding: 2em 1em 2em 1em ;
 			}
 
-			
+			/* List */
+
+			ul.major-icons{
+				padding-left: 1em;
+			}
+	
+			ul.major-icons li {
+				padding: .8em .8em .8em;
+			}
+
+			ul.major-icons li .icon {
+				height: 8em;
+				line-height: 5em;
+				width: 8em;
+			}
 	}
