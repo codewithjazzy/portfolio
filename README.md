@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-A beverage recipe website for both alcoholic and nonalcoholic drinks. The site allows you to search using drink names or keywords to find the ingredients, measurements and instructions for crafting your next drink.
+A website to showcase my projects and link to my socials
 
 
 ## Table of contents
