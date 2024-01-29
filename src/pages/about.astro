@@ -1,0 +1,123 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+import ContactCTA from '../components/ContactCTA.astro';
+import Hero from '../components/Hero.astro';
+---
+
+<BaseLayout title="About | Jasmine Taylor" description="About Jasmine Taylor">
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<Hero
+				title="About"
+				tagline="Now this is a story all about how..."
+			>
+				<img
+					width="1553"
+					height="873"
+					src="/assets/about.png"
+					alt="Jasmine Taylor at her desk smiling, waving, and wearing an Adventure Time t-shirt"
+				/>
+			</Hero>
+
+			<section>
+				<h2 class="section-title">Background</h2>
+				<div class="content">
+					<p>
+						My journey into tech began in 2022, reigniting a spark from my early days of creating engaging Myspace experiences. Prior to this, I spent over five years as a licensed Massage Therapist, where I honed my skills in empathy and problem-solving, helping clients navigate through some of their most challenging times. This experience instilled in me a deep understanding of the importance of human-centric design and service.
+					</p>
+				</div>
+				<div class="content">
+					<p>
+						Today, as a Full Stack Engineer, I specialize in creating intuitive and impactful digital solutions. Whether it's developing innovative software or collaborating on cutting-edge projects, my goal remains the same – to leverage technology to solve complex problems and improve lives.
+					</p>
+				</div>
+				<div class="content">
+					<p>
+						When I'm not coding, you can find me playing video games with a kitty in my lap, watching horror movies, rewatching Abbott Elementary or bouncing on my mini trampoline.
+					</p>
+				</div>
+				<div class="content">
+					<p>
+						If you’re on a path to tech, transitioning careers, or looking for a collaborator who brings a blend of tech savvy and human empathy, let’s connect!
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Skills</h2>
+				<div class="content">
+					<p>HTML5 / CSS3</p>
+					<p>Javascript</p>
+					<p>MongoDB</p>
+					<p>Express</p>
+					<p>React</p>
+					<p>React Native</p>
+					<p>Node</p>
+					<p>OOP</p>
+					<p>Web Accessibility</p>
+					
+				</div>
+			</section>
+		</main>
+
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+	}
+
+	.content {
+		grid-column: 2 / 4;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+</style>
