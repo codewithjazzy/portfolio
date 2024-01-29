@@ -1,22 +1,20 @@
 ---
-title: Slayed & Laid Salon
-publishDate: 2020-03-04 00:00:00
-img: /assets/salongif.gif
-img_alt: scrolling GIF preview of website.
+title: MVC Presentation
+publishDate: 2024-01-29 00:00:00
+img: /assets/mvc.gif
+img_alt: scrolling GIF preview of presentation.
 description: |
-  Vibrant and stylish online showcase for a small hairstyling business.
+  A Beginner's Guide To MVC
 tags:
-  - HTML
-  - CSS
-  - Javascript
+  - Learning
+  - Canva
+  - MVC
 ---
 
 
-### Slayed & Laid Salon
+### MVC Presentation
 
-A personal business site created to showcase the artistry and expertise of a hair stylist. Includes an image gallery, customer testimonials, and contact information.
-
+This presentation, titled 'Introduction to MVC: A Simple Guide,' is crafted to demystify the Model-View-Controller (MVC) architecture for individuals new to web technology. Through relatable analogies, clear explanations, and engaging visuals, it breaks down the MVC paradigm into its core components—Model, View, and Controller—and illustrates their roles in software development. 
 ##### Links
 
-- Repository URL: [Here](https://github.com/codewithjazzy/SlayedAndLaidSalon)
-- Live Site URL: [Here](slayedandlaid.netlify.app/)
+- [View Presentation](https://www.canva.com/design/DAF4TPN8Zr8/IwhofFCXP_3rzDxYq7nJww/edit?utm_content=DAF4TPN8Zr8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
