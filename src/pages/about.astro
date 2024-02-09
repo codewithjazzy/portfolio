@@ -3,6 +3,8 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
 import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
+import SkillsTech from '../components/SkillsTech.astro';
+import Pill from '../components/Pill.astro';
 ---
 
 <BaseLayout title="About | Jasmine Taylor" description="About Jasmine Taylor">
@@ -44,18 +46,12 @@ import Hero from '../components/Hero.astro';
 				</div>
 			</section>
 			<section>
-				<h2 class="section-title">Skills</h2>
+				<h2 class="section-title">Technical Skills</h2>
 				<div class="content">
-					<p>HTML5 / CSS3</p>
-					<p>Javascript</p>
-					<p>MongoDB</p>
-					<p>Express</p>
-					<p>React</p>
-					<p>React Native</p>
-					<p>Node</p>
-					<p>OOP</p>
-					<p>Web Accessibility</p>
-					
+					<SkillsTech />
+					<div class="roles">
+						<a href="https://docs.google.com/document/d/152rO-dqiVUXJ_fhL09g-xmSTIVEWv3aK/edit?usp=sharing&ouid=104131603519873952816&rtpof=true&sd=true" class="resume">View My Resume</a>
+					</div>
 				</div>
 			</section>
 		</main>
@@ -90,10 +86,52 @@ import Hero from '../components/Hero.astro';
 		color: var(--gray-0);
 	}
 
+	a {
+		position: relative;
+		display: flex;
+		place-content: center;
+		text-align: center;
+		padding: 0.56em 2em;
+		gap: 0.8em;
+		color: var(--accent-text-over);
+		text-decoration: none;
+		line-height: 1.1;
+		border-radius: 999rem;
+		overflow: hidden;
+		background: var(--gradient-accent-orange);
+		box-shadow: var(--shadow-md);
+		white-space: nowrap;
+	}
+
+	.roles a {
+		text-decoration: none;
+	}
+
+	a::after {
+		content: '';
+		position: absolute;
+		inset: 0;
+		pointer-events: none;
+		transition: background-color var(--theme-transition);
+		mix-blend-mode: overlay;
+	}
+
+	a:focus::after,
+	a:hover::after {
+		background-color: hsla(var(--gray-999-basis), 0.3);
+	}
+
 	.content {
 		grid-column: 2 / 4;
 	}
 
+	.roles{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding-top: 5rem;
+		padding-bottom: 1rem;
+	}
 	.content :global(a) {
 		text-decoration: 1px solid underline transparent;
 		text-underline-offset: 0.25em;
