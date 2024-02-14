@@ -1,7 +1,7 @@
 ---
 title: Relief Route
 publishDate: 2019-10-02 00:00:00
-img: /assets/comingsoonGIF.gif
+img: /assets/relief.gif
 img_alt: scrolling GIF preview of website.
 description: |
   Backend application aiding users in finding public facilities in unfamiliar locations, worldwide.
@@ -17,5 +17,5 @@ Relief Route is a user-friendly web app designed to help individuals quickly fin
 
 ##### Links
 
-- Repository URL: []()Coming Soon
-- Live Site URL: []()
+- Repository URL: [Here](https://github.com/codewithjazzy/relief-route-app)
+- Live Site URL: [Here](https://reliefroute.onrender.com/)
