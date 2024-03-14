@@ -1,6 +1,6 @@
 ---
 title: MVC Presentation
-publishDate: 2024-01-29 00:00:00
+publishDate: 2023-12-28 00:00:00
 img: /assets/mvc.gif
 img_alt: scrolling GIF preview of presentation.
 description: |
