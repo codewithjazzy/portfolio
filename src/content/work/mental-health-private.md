@@ -1,6 +1,6 @@
 ---
 title: LCSW Private Practice
-publishDate: 2020-03-02 00:00:00
+publishDate: 2023-10-29 00:00:00
 img: /assets/landogif.gif
 img_alt: scrolling GIF preview of website.
 description: |

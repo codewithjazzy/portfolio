@@ -1,6 +1,6 @@
 ---
 title: Beverage Boutique
-publishDate: 2019-12-01 00:00:00
+publishDate: 2023-04-24 00:00:00
 img: /assets/bevboutiqueGIF.gif
 img_alt: scrolling GIF preview of website.
 description: |
