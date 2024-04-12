@@ -4,11 +4,13 @@ import '../styles/global.css';
 interface Props {
 	title?: string | undefined;
 	description?: string | undefined;
+	image?: string | undefined;
 }
 
 const {
-	title = 'Jasmine Taylor: Personal Site',
-	description = 'The personal site of Jasmine Taylor',
+	title = 'Jasmine | Software Engineer Portfolio',
+	description = 'Explore the innovative and user-centric web creations crafted by Jasmine, a passionate full-stack developer committed to people-first solutions.',
+	image = 'https://opengraph.b-cdn.net/production/documents/a7176b55-ead7-4699-a557-b61ea6cd4ba7.png?token=ep3h6zsJFrx3kc0XAT3zFPPez0NIhAOc3H4oVzCPaHo&height=597&width=1200&expires=33248906685',
 } = Astro.props;
 ---
 
@@ -16,6 +18,7 @@ const {
 <meta name="description" property="og:description" content={description} />
 <meta name="viewport" content="width=device-width" />
 <meta name="generator" content={Astro.generator} />
+<meta property="og:image" content={image} />
 <title>{title}</title>
 
 <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
