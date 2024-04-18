@@ -20,6 +20,9 @@ import Pill from '../components/Pill.astro';
 					src="/assets/about.png"
 					alt="Jasmine Taylor at her desk smiling, waving, and wearing an Adventure Time t-shirt"
 				/>
+				<div class="roles">
+					<a href="https://docs.google.com/document/d/152rO-dqiVUXJ_fhL09g-xmSTIVEWv3aK/edit?usp=sharing&ouid=104131603519873952816&rtpof=true&sd=true" class="resume">View My Resume</a>
+				</div>
 			</Hero>
 
 			<section>
@@ -49,9 +52,6 @@ import Pill from '../components/Pill.astro';
 				<h2 class="section-title">Technical Skills</h2>
 				<div class="content">
 					<SkillsTech />
-					<div class="roles">
-						<a href="https://docs.google.com/document/d/152rO-dqiVUXJ_fhL09g-xmSTIVEWv3aK/edit?usp=sharing&ouid=104131603519873952816&rtpof=true&sd=true" class="resume">View My Resume</a>
-					</div>
 				</div>
 			</section>
 		</main>
@@ -129,7 +129,7 @@ import Pill from '../components/Pill.astro';
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		padding-top: 5rem;
+		padding-top: 1rem;
 		padding-bottom: 1rem;
 	}
 	.content :global(a) {
