@@ -30,14 +30,17 @@ const projects = (await getCollection('work'))
 		<div class="wrapper stack gap-8 lg:gap-20">
 			<header class="hero">
 				<Hero
-					title="Hello, I'm Jasmine"
+					title="Hello, I'm Jasmine."
 					tagline="I'm a dynamic and dedicated Full-stack Software Engineer with a unique background in health and wellness. Based in California, I blend a passion for technology with a heart for human service."
 					align="start"
 				>
 					<div class="roles">
-						<Pill><Icon icon="code" size="1.33em" /> Developer</Pill>
-						<Pill><Icon icon="brain" size="1.33em" /> Learner</Pill>
-						<Pill><Icon icon="cat" size="1.33em" /> Cat Lover</Pill>
+						<Pill><Icon icon="paper-plane-tilt" size="1.33em" />
+							<a href="mailto:codewithjazzy@gmail.com">Email Me Directly</a>
+						</Pill>
+						<Pill><Icon icon="resume" size="1.33em" />
+							<a href="https://docs.google.com/document/d/1tmc2zQ-42e-QyrIrYAtDrsriOwCDQpmdxVUCFouUBxA/edit?usp=sharing"> View My Resume</a>
+						</Pill>
 					</div>
 				</Hero>
 
@@ -115,7 +118,7 @@ const projects = (await getCollection('work'))
 		.roles {
 			margin-top: 0.5rem;
 			display: flex;
-			gap: 0.5rem;
+			gap: 1rem;
 		}
 
 		.hero img {
@@ -124,8 +127,30 @@ const projects = (await getCollection('work'))
 			object-fit: cover;
 		}
 	}
+	@media (max-width: 49.9375em){
+		.roles {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			gap: .5em;
+			
+		}
+	}
+	@media (max-width: 30.25em){
+		.roles {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			gap: .5em;
+			
+		}
+	}
 
 	/* ====================================================== */
+	a {
+		text-decoration: none;
+		color: var(--gray-0);
+	}
 
 	.section {
 		display: grid;
