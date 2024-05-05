@@ -1,6 +1,7 @@
 ---
 title: Relief Route
 publishDate: 2024-04-02 00:00:00
+img_static: /assets/relief.png
 img: /assets/relief.gif
 img_alt: scrolling GIF preview of website.
 description: |
@@ -18,4 +19,4 @@ Relief Route is a user-friendly web app designed to help individuals quickly fin
 ##### Links
 
 - Repository URL: [Here](https://github.com/codewithjazzy/relief-route-app)
-- Live Site URL: [Here](https://reliefroute.onrender.com/)
+- Live Site URL: [Here](https://reliefroute.jasminetaylor.dev/)
