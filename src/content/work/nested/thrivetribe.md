@@ -1,6 +1,7 @@
 ---
 title: ThriveTribe
 publishDate: 2023-03-07 00:00:00
+img_static: /assets/thrive.png
 img: /assets/thrive.gif
 img_alt: scrolling GIF preview of website.
 description: |

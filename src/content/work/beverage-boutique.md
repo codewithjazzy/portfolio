@@ -1,6 +1,7 @@
 ---
 title: Beverage Boutique
 publishDate: 2023-04-24 00:00:00
+img_static: /assets/bevboutique.png
 img: /assets/bevboutiqueGIF.gif
 img_alt: scrolling GIF preview of website.
 description: |
@@ -20,4 +21,4 @@ tags:
 ##### Links
 
 - Repository URL: [Here](https://github.com/codewithjazzy/Beverage-Boutique)
-- Live Site URL: [Here](https://beverageboutique.netlify.app/)
+- Live Site URL: [Here](https://beverageboutique.jasminetaylor.dev/)
