@@ -14,7 +14,7 @@ tags:
 
 ### LCSW Private Practice
 
-A personal website for a Licensed Clinical Social worker. It outlines her therapy focus, client focus, and types of therapy offered. The site also highlights her expertise with a direct link to her license verification.
+A personal website for a Licensed Clinical Social Worker. It outlines her therapy focus, client focus, and types of therapy offered. The site also highlights her expertise with a direct link to her license verification.
 
 With a focus on ease-of-use, there is a contact form and the site allows users to locate the practice with real-time directions via an interactive map link.
 
