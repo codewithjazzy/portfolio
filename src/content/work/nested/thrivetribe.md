@@ -19,7 +19,7 @@ ThriveTribe is a compassionate web platform tailored specifically for Black wome
 ##### Links
 
 - Github Repository: [💜Click Here💜](https://github.com/codewithjazzy/thrivetribe)
-- Live Demo: [💜Click Here💜](https://thrivetribe.onrender.com/)
+- Live Demo: [💜Click Here💜](https://thrivetribe.jasminetaylor.dev/)
 
 
 ##### Built With
