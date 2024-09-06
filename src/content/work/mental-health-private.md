@@ -14,10 +14,19 @@ tags:
 
 ### LCSW Private Practice
 
-A personal site for a Licensed Clinical Social worker. It outlines their therapy focus, client focus, types of therapy offered, and accepted insurances.
+A personal website for a Licensed Clinical Social Worker. It outlines her therapy focus, client focus, and types of therapy offered. The site also highlights her expertise with a direct link to her license verification.
+
+With a focus on ease-of-use, there is a contact form and the site allows users to locate the practice with real-time directions via an interactive map link.
 
 ##### Links
 
-- Repository URL: [Here](https://github.com/codewithjazzy/client_Lando)
-- Live Site URL: [Here](https://michelelando.com/)
+- Github Repository: [💜Click Here💜](https://github.com/codewithjazzy/client_Lando)
+- Live Demo: [💜Click Here💜](https://michelelando.com/)
 
+##### Built With
+
+![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
