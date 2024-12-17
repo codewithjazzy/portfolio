@@ -21,7 +21,7 @@ With a focus on ease-of-use, there is a contact form and the site allows users t
 ##### Links
 
 - Github Repository: [💜Click Here💜](https://github.com/codewithjazzy/client_Lando)
-- Live Demo: [💜Click Here💜](https://michelelando.com/)
+- Live Demo: [💜Click Here💜](https://michelelando.jasminetaylor.dev)
 
 ##### Built With
 
